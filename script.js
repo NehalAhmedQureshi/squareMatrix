@@ -1,3 +1,4 @@
+let para = document.querySelector('#para')
 let matrix1 = [
       [1, 2, 3],
       [5, 6, 7],
@@ -10,8 +11,8 @@ for (let i = 0; i < matrix1.length; i++) {
 
             let sum = matrix1[i][j] * matrix1[i][j];
             result[i].push(sum);
+            
             console.log(result);
-
       }
 
 }
